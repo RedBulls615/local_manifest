@@ -2,11 +2,11 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="AL" fetch="https://github.com/ALprjkt" clone-depth="1" />
+        <remote name="riva" fetch="https://github.com/iusmac" clone-depth="1" />
 		
         <!-- Trees -->
-        <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="AL" revision="qassa" />
-	<project path="vendor/xiaomi" name="vendor_xiaomi" remote="AL" revision="main" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="AL" revision="main" />
+        <project path="device/xiaomi/rova" name="device_rova" remote="rova" revision="11-dev" />
+        <project path="vendor/xiaomi/rova" name="vendor_rova" remote="rova" revision="11-dev" />
+        <project path="kernel/xiaomi/rova" name="kernel_rova" remote="rova" revision="11-dev" />
 
 </manifest>
